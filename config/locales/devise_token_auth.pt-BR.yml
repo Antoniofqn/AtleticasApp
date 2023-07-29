@@ -1,0 +1,39 @@
+# encoding: UTF-8
+# pt-BR translations for Devise Token Auth
+pt-BR:
+  devise_token_auth:
+    sessions:
+      not_confirmed: "Uma mensagem com um link de confirmação foi enviado para seu endereço de e-mail. Você precisa confirmar sua conta antes de continuar."
+      bad_credentials: "Credenciais Inválidas."
+      not_supported: "Use POST /sign_in para efetuar o login. GET não é suportado."
+      user_not_found: "Usuário não existe ou não está logado."
+      bad_uid: "Não há uma conta com o email inserido."
+      bad_password: "A senha que você inseriu está incorreta."
+    token_validations:
+      invalid: "Dados de login inválidos."
+    registrations:
+      missing_confirm_success_url: "Parâmetro 'confirm_success_url' não informado."
+      redirect_url_not_allowed: "Redirecionamento para '%{redirect_url}' não permitido."
+      email_already_exists: "Já existe uma conta com o email '%{email}'."
+      account_with_uid_destroyed: "A conta com uid '%{uid}' foi excluída."
+      account_to_destroy_not_found: "Não foi possível encontrar a conta para exclusão."
+      user_not_found: "Usuário não encontrado."
+    passwords:
+      missing_confirmation: "Você precisa se cadastrar pelo link do email enviado antes de fazer esta ação."
+      missing_email: "Informe o endereço de e-mail."
+      missing_redirect_url: "URL para redirecionamento não informada."
+      not_allowed_redirect_url: "Redirecionamento para '%{redirect_url}' não permitido."
+      sended: "Você receberá uma mensagem no destinatário escolhido com instruções sobre como redefinir sua senha."
+      user_not_found: "Não foi possível encontrar este usuário."
+      password_not_required: "Esta conta não necessita de uma senha. Faça login utilizando '%{provider}'."
+      missing_passwords: 'Preencha a senha e a confirmação de senha.'
+      successfully_updated: "Senha atualizada com sucesso."
+      invalid_tokens: "Tokens inválidos!"
+      invalid_send_to: "Destinatário inválido!"
+      create_success_phone: "Você receberá uma mensagem no telefone %{phone} com instruções sobre como redefinir sua senha."
+      create_success_email: "Você receberá uma mensagem no email %{email} com instruções sobre como redefinir sua senha."
+      unconfirmed_email: "Você deve confirmar seu email para solicitar a redefinição de senha."
+    unlocks:
+      missing_email: "É necessário um endereço de email."
+      sended: "Um email foi enviado para '%{email}' com as instruções de desbloqueio."
+      user_not_found: "Não foram encontrados usuários com o email '%{email}'."

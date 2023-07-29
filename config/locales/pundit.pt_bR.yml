@@ -1,0 +1,8 @@
+##
+# As its an error based file, all messages should say the OPPOSITE of the condition.
+#
+---
+pt-BR:
+  pundit:
+    errors:
+      user_self?: "Usuário requisitado não é o seu."
