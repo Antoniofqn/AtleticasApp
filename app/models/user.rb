@@ -6,4 +6,33 @@ class User < ApplicationRecord
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :validatable
   include DeviseTokenAuth::Concerns::User
+
+  ##
+  # Validations
+  #
+
+  validates :email, uniqueness: true, if: -> { email.present? }
+  validates :password, presence: true, allow_blank: false, on: :create
+  validates :password, confirmation: true, if: -> { password.present? }
+  validates :password_confirmation, presence: true, if: -> { password.present? }
+  validates :first_name, presence: true, allow_blank: false
+  validates :last_name, presence: true, allow_blank: false
+
+  ##
+  # Associations
+  #
+
+  ##
+  # Callbacks
+  #
+
+  before_validation :set_uid, on: :create
+
+  ##
+  # Methods
+  #
+
+  def set_uid
+    self.uid = email if uid.blank? && email.present?
+  end
 end

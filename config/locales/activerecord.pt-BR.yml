@@ -1,0 +1,10 @@
+---
+pt-BR:
+  activerecord:
+    errors:
+      messages:
+        record_change_once: "Este atributo só pode ser modificado uma vez!"
+        record_invalid: "A validação falhou: %{errors}"
+        restrict_dependent_destroy:
+          has_one: Não é possível excluir o registro pois existe um %{record} dependente
+          has_many: Não é possível excluir o registro pois existem %{record} dependentes
