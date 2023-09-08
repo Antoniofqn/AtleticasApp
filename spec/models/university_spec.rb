@@ -9,9 +9,9 @@ RSpec.describe University, type: :model do
     it { should validate_presence_of(:abbreviation) }
   end
 
-  # describe 'associations' do
-  #   it { should have_many(:university_users) }
-  # end
+  describe 'associations' do
+    it { should have_many(:clubs) }
+  end
 
   describe 'callbacks' do
     it 'should set slug after create' do

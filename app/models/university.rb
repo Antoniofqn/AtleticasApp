@@ -11,6 +11,8 @@ class University < ApplicationRecord
   # Associations
   #
 
+  has_many :clubs
+
   ##
   # Callbacks
   #

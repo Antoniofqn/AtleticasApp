@@ -22,6 +22,8 @@ class User < ApplicationRecord
   # Associations
   #
 
+  has_many :club_users
+  has_many :clubs, through: :club_users
 
   ##
   # Callbacks
