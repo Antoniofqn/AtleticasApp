@@ -22,6 +22,7 @@ class User < ApplicationRecord
   # Associations
   #
 
+
   ##
   # Callbacks
   #
