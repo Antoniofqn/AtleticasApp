@@ -68,14 +68,12 @@ gem 'kaminari'
 gem 'money-rails'
 # Authorization
 gem 'pundit'
-# Administrator panel
-gem 'rails_admin'
-# Theme for Administrator panel
-gem 'rails_admin_softwarebrothers_theme', git: 'https://github.com/softwarebrothers/rails_admin_softwarebrothers_theme.git'
 # Runtime developer console
 gem 'pry'
 # Fixing the http-parser gem version to work on M1 Macs
 gem 'http-parser', '~> 1.2.3'
+# Admin
+gem "administrate"
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
