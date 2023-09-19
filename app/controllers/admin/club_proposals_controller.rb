@@ -42,5 +42,24 @@ module Admin
 
     # See https://administrate-demo.herokuapp.com/customizing_controller_actions
     # for more information
+    def approve
+      proposal = ClubProposal.find(params[:id])
+      if proposal.approve
+        flash[:notice] = "Proposal approved successfully."
+      else
+        flash[:alert] = "Proposal has already been approved."
+      end
+      redirect_to admin_club_proposal_path(proposal)
+    end
+
+    def disapprove
+      proposal = ClubProposal.find(params[:id])
+      if proposal.disapprove
+        flash[:notice] = "Proposal disapproved successfully."
+      else
+        flash[:alert] = "Proposal has already been approved."
+      end
+      redirect_to admin_club_proposal_path(proposal)
+    end
   end
 end
