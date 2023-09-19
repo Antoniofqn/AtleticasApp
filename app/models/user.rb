@@ -38,4 +38,8 @@ class User < ApplicationRecord
   def set_uid
     self.uid = email if uid.blank? && email.present?
   end
+
+  def name
+    "#{first_name} #{last_name}"
+  end
 end

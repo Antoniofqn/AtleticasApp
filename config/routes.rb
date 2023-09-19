@@ -25,6 +25,7 @@ Rails.application.routes.draw do
           get :forgot_uid
         end
       end
+      resources :club_proposals, only: %i[create index show update]
     end
   end
 

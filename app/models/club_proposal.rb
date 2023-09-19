@@ -30,7 +30,14 @@ class ClubProposal < ApplicationRecord
       create_club_user(club, user)
 
       update(approved: true, approved_at: Time.current)
+      send_approval_email
     end
+  end
+
+  def disapprove
+    return false if approved # Ensure a proposal isn't disapproved multiple times
+
+    send_disapproval_email
   end
 
   private
@@ -58,5 +65,13 @@ class ClubProposal < ApplicationRecord
 
   def create_club_user(club, user)
     ClubUser.create!(club_id: club.id, user_id: user.id)
+  end
+
+  def send_approval_email
+    ClubProposalMailer.with(club_proposal: self).approval_email.deliver_later
+  end
+
+  def send_disapproval_email
+    ClubProposalMailer.with(club_proposal: self).disapproval_email.deliver_later
   end
 end
