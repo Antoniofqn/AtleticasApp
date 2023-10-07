@@ -32,16 +32,14 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_08_002558) do
     t.integer "proposed_club_year_of_foundation"
     t.bigint "university_id"
     t.string "proposed_club_logo_url"
-    t.string "proposer_first_name"
-    t.string "proposer_last_name"
-    t.string "proposer_email", null: false
+    t.bigint "user_id"
     t.boolean "approved", default: false
     t.datetime "approved_at"
     t.string "remarks"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
-    t.index ["proposer_email"], name: "index_club_proposals_on_proposer_email", unique: true
     t.index ["university_id"], name: "index_club_proposals_on_university_id"
+    t.index ["user_id"], name: "index_club_proposals_on_user_id"
   end
 
   create_table "club_users", force: :cascade do |t|
@@ -98,6 +96,7 @@ ActiveRecord::Schema[7.0].define(version: 2023_09_08_002558) do
   end
 
   add_foreign_key "club_proposals", "universities"
+  add_foreign_key "club_proposals", "users"
   add_foreign_key "club_users", "clubs"
   add_foreign_key "club_users", "users"
   add_foreign_key "clubs", "universities"

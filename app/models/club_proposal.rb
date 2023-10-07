@@ -7,15 +7,13 @@ class ClubProposal < ApplicationRecord
   #
 
   belongs_to :university
+  belongs_to :user
 
   #
   # Validations
   #
 
   validates :proposed_club_name, presence: true, allow_blank: false
-  validates :proposer_email, presence: true, allow_blank: false
-  validates :proposer_first_name, presence: true, allow_blank: false
-  validates :proposer_last_name, presence: true, allow_blank: false
 
   #
   # Methods
@@ -26,8 +24,7 @@ class ClubProposal < ApplicationRecord
 
     Club.transaction do
       club = create_club
-      user = create_user
-      create_club_user(club, user)
+      create_club_user(club, club.user)
 
       update(approved: true, approved_at: Time.current)
       send_approval_email
@@ -49,17 +46,6 @@ class ClubProposal < ApplicationRecord
       year_of_foundation: proposed_club_year_of_foundation,
       university_id: university.id,
       logo_url: proposed_club_logo_url
-    )
-  end
-
-  def create_user
-    password = SecureRandom.hex(32)
-    User.create!(
-      first_name: proposer_first_name,
-      last_name: proposer_last_name,
-      email: proposer_email,
-      password: password,
-      password_confirmation: password
     )
   end
 

@@ -15,9 +15,7 @@ class ClubProposalDashboard < Administrate::BaseDashboard
     proposed_club_logo_url: Field::String,
     proposed_club_name: Field::String,
     proposed_club_year_of_foundation: Field::Number,
-    proposer_email: Field::String,
-    proposer_first_name: Field::String,
-    proposer_last_name: Field::String,
+    user: Field::BelongsTo,
     remarks: Field::String,
     university: Field::BelongsTo,
     created_at: Field::DateTime,
@@ -46,9 +44,7 @@ class ClubProposalDashboard < Administrate::BaseDashboard
     proposed_club_logo_url
     proposed_club_name
     proposed_club_year_of_foundation
-    proposer_email
-    proposer_first_name
-    proposer_last_name
+    user
     remarks
     university
     created_at
@@ -65,9 +61,7 @@ class ClubProposalDashboard < Administrate::BaseDashboard
     proposed_club_logo_url
     proposed_club_name
     proposed_club_year_of_foundation
-    proposer_email
-    proposer_first_name
-    proposer_last_name
+    user
     remarks
     university
   ].freeze

@@ -12,7 +12,12 @@ module Api
       # Attributes
       #
       attributes :proposed_club_name, :proposed_club_description, :proposed_club_year_of_foundation, :proposed_club_logo_url,
-                 :proposer_first_name, :proposer_last_name, :proposer_email,
                  :approved, :approved_at, :remarks
+
+      ##
+      # Relationships
+      #
+      belongs_to :university
+      belongs_to :user
   end
 end

@@ -3,13 +3,11 @@ require 'rails_helper'
 RSpec.describe ClubProposal, type: :model do
   describe 'validations' do
     it { should validate_presence_of(:proposed_club_name) }
-    it { should validate_presence_of(:proposer_email) }
-    it { should validate_presence_of(:proposer_first_name) }
-    it { should validate_presence_of(:proposer_last_name) }
   end
 
   describe 'associations' do
     it { should belong_to(:university) }
+    it { should belong_to(:user) }
   end
 
   describe 'methods' do

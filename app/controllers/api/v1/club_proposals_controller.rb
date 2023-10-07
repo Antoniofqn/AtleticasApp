@@ -16,6 +16,7 @@ module Api
 
       def create
         @club_proposal = ClubProposal.new(club_proposal_params)
+        @club_proposal.user = current_user
         authorize @club_proposal
         if @club_proposal.save
           render json: Api::V1::ClubProposalSerializer.new(@club_proposal).serialized_json
@@ -36,8 +37,9 @@ module Api
       private
 
       def club_proposal_params
-        params.require(:club_proposal).permit(:proposed_club_name, :proposed_club_description, :proposed_club_year_of_foundation, :proposed_club_logo_url,
-                                               :proposer_first_name, :proposer_last_name, :proposer_email, :university_id)
+        params.require(:club_proposal).permit(:proposed_club_name, :proposed_club_description,
+                                              :proposed_club_year_of_foundation, :proposed_club_logo_url,
+                                              :university_id)
       end
 
       def set_club_proposal
