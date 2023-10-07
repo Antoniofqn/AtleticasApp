@@ -38,8 +38,8 @@ as well as a link to its edit page.
       data: { confirm: t("administrate.actions.confirm") }
     ) if accessible_action?(page.resource, :destroy) %>
 
-    <%= link_to "Approve", approve_admin_club_proposal_path(resource), method: :post, data: { confirm: "Are you sure you want to approve?" } %>
-    <%= link_to "Disapprove", disapprove_admin_club_proposal_path(resource), method: :post, data: { confirm: "Are you sure you want to disapprove?" } %>
+    <%= link_to "Approve", approve_api_v1_club_proposal_path(page.resource), method: :post, data: { confirm: "Are you sure you want to approve?" } %>
+    <%= link_to "Disapprove", disapprove_api_v1_club_proposal_path(page.resource), method: :post, data: { confirm: "Are you sure you want to disapprove?" } %>
   </div>
 </header>
 
