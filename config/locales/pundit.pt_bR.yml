@@ -6,3 +6,6 @@ pt-BR:
   pundit:
     errors:
       user_self?: "Usuário requisitado não é o seu."
+      user_belongs_to_club?: "Usuário não pertence a Atlética."
+      user_belongs_to_same_club_as_club_user?: "Usuário não pertence a mesma Atlética que o usuário requisitado."
+      club_user_already_exists?: "Usuário já pertence a Atlética."

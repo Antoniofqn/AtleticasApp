@@ -32,6 +32,8 @@ Rails.application.routes.draw do
         end
       end
       resources :universities, only: %i[index show]
+      resources :clubs, only: %i[index show update]
+      resources :club_users, only: %i[index create destroy]
     end
   end
 

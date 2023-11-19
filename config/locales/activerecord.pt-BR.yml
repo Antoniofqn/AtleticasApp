@@ -1,6 +1,16 @@
 ---
 pt-BR:
   activerecord:
+    models:
+      university:
+        one: Universidade
+        other: Universidades
+      club:
+        one: Atlética
+        other: Atléticas
+      user:
+        one: Usuário
+        other: Usuários
     errors:
       messages:
         record_change_once: "Este atributo só pode ser modificado uma vez!"

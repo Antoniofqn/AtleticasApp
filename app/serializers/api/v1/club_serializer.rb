@@ -13,12 +13,11 @@ module Api
       #
       attributes :name, :description, :year_of_foundation, :logo_url, :slug
 
-      ##
-      # Relationships
-      #
-      belongs_to :university
-      has_many :club_users
-      has_many :users, through: :club_users
+      attribute :university do |object|
+        { name: object.university.name,
+          slug: object.university.slug,
+          hashid: object.university.hashid }
+      end
     end
   end
 end
