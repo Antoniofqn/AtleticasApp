@@ -1,0 +1,342 @@
+name,state,region,category,abbreviation
+Instituto Federal do Acre,Acre,Norte,0,IFAC
+Universidade Federal do Acre,Acre,Norte,0,UFAC
+Faculdade Diocesana São José,Acre,Norte,1,FADISI
+Escola Superior Aberta do Brasil,Acre,Norte,1,ESAB
+Instituto de Ensino Superior Brasileiro,Acre,Norte,1,ESB
+Faculdade da Amazônia Ocidental,Acre,Norte,1,FAAO
+Universidade Estadual de Alagoas,Alagoas,Nordeste,0,UNEAL
+Universidade Estadual de Ciências da Saúde de Alagoas,Alagoas,Nordeste,0,UNCIASAL
+Instituto Federal de Alagoas,Alagoas,Nordeste,0,IFAL
+Universidade Federal de Alagoas,Alagoas,Nordeste,0,UFAL
+Centro de Estudos Superiores de Maceió,Alagoas,Nordeste,1,CESMAC
+Associação de Ensino Superior de Alagoas,Alagoas,Nordeste,1,FAA & IESA
+Faculdade da Cidade de Maceió,Alagoas,Nordeste,1,FACIMA
+Faculdade Pitágoras,Alagoas,Nordeste,1,FAP
+Faculdade Integrada Tiradentes,Alagoas,Nordeste,1,FITS
+Universidade Estadual do Amapá,Amapá,Norte,0,UEAP
+Instituto Federal do Amapá,Amapá,Norte,0,IFAP
+Universidade Federal do Amapá,Amapá,Norte,0,UNIFAP
+Centro de Ensino Superior do Amapá,Amapá,Norte,1,CEAP
+Faculdade Brasil Norte,Amapá,Norte,1,FABRAN
+Faculdade do Amapá,Amapá,Norte,1,FAMA
+Faculdade de Ensino Superior da Amazônia,Amapá,Norte,1,FESAN
+Instituto de Ensino Superior do Amapá,Amapá,Norte,1,IESAP
+Instituto Macapaense do Melhor Ensino Superior,Amapá,Norte,1,IMMES
+Faculdade Meta,Amapá,Norte,1,META
+Universidade do Estado do Amazonas,Amazonas,Norte,0,UEA
+Instituto Federal do Amazonas,Amazonas,Norte,0,IFAM
+Universidade Federal do Amazonas,Amazonas,Norte,0,UFAM
+Instituto Nacional de Pesquisas da Amazônia,Amazonas,Norte,0,INPA
+Universidade Luterana do Brasil-AM,Amazonas,Norte,1,ULBRA-AM
+Faculdade Salesiana Dom Bosco,Amazonas,Norte,1,FSDB
+Centro Universitário de Ensino Superior do Amazonas,Amazonas,Norte,1,Ciesa
+Universidade Nilton Lins,Amazonas,Norte,1,UNINILTONLINS
+Instituto de Ensino Superior Fucapi,Amazonas,Norte,1,Cesf
+Faculdade Táhirih,Amazonas,Norte,1,FT
+Faculdade Metropolitana de Manaus,Amazonas,Norte,1,Fametro
+Faculdade Martha Falcão,Amazonas,Norte,1,FMF
+Faculdade Literatus,Amazonas,Norte,1,Fal
+Faculdade La Salle,Amazonas,Norte,1,Unisalle
+Faculdade do Amazonas,Amazonas,Norte,1,Iaes
+Faculdade de Odontologia de Manaus,Amazonas,Norte,1,Fom
+"Faculdade Boas Novas de Ciência Teológicas, Sociais e Biotecnológicas",Amazonas,Norte,1,FBNCTSB
+Centro Universitário do Norte,Amazonas,Norte,1,Uninorte
+Universidade Paulista-AM,Amazonas,Norte,1,Unip-AM
+Centro Universitário Estácio da Bahia,Bahia,Nordeste,1,Estácio Bahia
+Centro Universitário Jorge Amado,Bahia,Nordeste,1,UNIJORGE
+"Instituto Federal de Educação, Ciência e Tecnologia Baiano",Bahia,Nordeste,0,IFBAIANO
+"Instituto Federal de Educação, Ciência e Tecnologia da Bahia",Bahia,Nordeste,0,IFBA
+Universidade Católica de Salvador,Bahia,Nordeste,1,UCSAL
+Universidade Estadual de Feira de Santa,Bahia,Nordeste,0,UEFS
+Universidade Estadual de Santa Cruz,Bahia,Nordeste,0,UESC
+Universidade Estadual do Sudoeste da Bahia,Bahia,Nordeste,0,UESB
+Universidade Federal da Bahia,Bahia,Nordeste,0,UFBA
+Universidade Federal do Oeste da Bahia,Bahia,Nordeste,0,UFOB
+Universidade Federal do Recôncavo da Bahia,Bahia,Nordeste,0,UFRB
+Universidade Federal do Sul da Bahia,Bahia,Nordeste,0,UFSB
+Universidade Salvador,Bahia,Nordeste,1,UNIFACS
+Universidade do Estado da Bahia,Bahia,Nordeste,0,UNEB
+Universidade Estadual do Ceará,Ceará,Nordeste,0,UECE
+Universidade Regional do Cariri,Ceará,Nordeste,0,URCA
+Universidade Estadual Vale do Acaraú,Ceará,Nordeste,0,UVA
+Instituto Federal do Ceará,Ceará,Nordeste,0,IFCE
+Universidade Federal do Ceará,Ceará,Nordeste,0,UFC
+Universidade Federal de Integração Luso-Afro-Brasileira,Ceará,Nordeste,0,UNILAB
+Universidade Federal do Cariri,Ceará,Nordeste,0,UFCA
+Faculdade Católica do Ceará,Ceará,Nordeste,1,FCC
+Facudade Católica de Fortaleza,Ceará,Nordeste,1,FCF
+Faculdade Católica Rainha do Sertão,Ceará,Nordeste,1,FCRS
+Centro Universitário Christus,Ceará,Nordeste,1,UNICHRISTUS
+Universidade de Fortaleza,Ceará,Nordeste,1,UNIFOR
+Centro Universitário Católica de Quixadá,Ceará,Nordeste,1,UNICATÓLICA
+Faculdade 7 de Setembro,Ceará,Nordeste,1,FA7
+Faculdade Evolutivo,Ceará,Nordeste,1,FACE
+Faculdade Farias Brito,Ceará,Nordeste,1,FFB
+Faculdade Luciano Feijão,Ceará,Nordeste,1,FLF
+Centro Universitário Fametro,Ceará,Nordeste,1,Unifametro
+Universidade do Distrito Federal Jorge Amaury,Distrito Federal,Centro-Oeste,0,UnDF
+Escola Superior de Ciências da Saúde,Distrito Federal,Centro-Oeste,0,ESCS
+Instituto Federal de Brasília,Distrito Federal,Centro-Oeste,0,IFB
+Universidade de Brasília,Distrito Federal,Centro-Oeste,0,UnB
+Escola Nacional de Administração Pública,Distrito Federal,Centro-Oeste,0,ENAP
+Universidade Católica de Brasília,Distrito Federal,Centro-Oeste,1,UCB
+Centro Universitário de Brasília,Distrito Federal,Centro-Oeste,1,CEUB
+Faculdade de Ciências Sociais e Tecnológicas,Distrito Federal,Centro-Oeste,1,FACITEC
+Faculdade Serrana,Distrito Federal,Centro-Oeste,1,FASEP
+Faculdades Integradas da Terra de Brasília,Distrito Federal,Centro-Oeste,1,FTB
+Instituto de Educação Superior de Brasília,Distrito Federal,Centro-Oeste,1,IESB
+Centro Universitário Euroamericano,Distrito Federal,Centro-Oeste,1,UNIEURO
+Centro Universitário de Desenvolvimento do Centro Oeste,Distrito Federal,Centro-Oeste,1,UNIDESC
+Universidade Paulista-DF,Distrito Federal,Centro-Oeste,1,UNIP-DF
+Universidade Norte do Paraná-DF,Distrito Federal,Centro-Oeste,1,UNOPAR-DF
+Faculdade Projeção,Distrito Federal,Centro-Oeste,1,FAPRO
+Faculdade de Ensino Superior de Linhares,Espírito Santo,Sudeste,0,FACELI
+Universidade Aberta Capixaba,Espírito Santo,Sudeste,0,UnAC
+Instituto Federal do Espírito Santo,Espírito Santo,Sudeste,0,IFES
+Universidade Federal do Espírito Santo,Espírito Santo,Sudeste,0,UFES
+Escola Superior de Ciências da Santa Casa de Misericódia de Vitória,Espírito Santo,Sudeste,1,EMESCAM
+Centro Universitário São Camilo,Espírito Santo,Sudeste,1,CUSC
+Rede de Ensino Doctum,Espírito Santo,Sudeste,1,DOCTUM
+Faculdades Integradas de Vitória,Espírito Santo,Sudeste,1,FDV
+FUCAPE Business School,Espírito Santo,Sudeste,1,FUCAPE
+Universidade Estácio de Sá-ES,Espírito Santo,Sudeste,1,UNESA-ES
+Universidade de Rio Verde,Goiás,Centro-Oeste,0,FESURV
+Universidade Estadual de Goiás,Goiás,Centro-Oeste,0,UEG
+Instituto Federal de Goiás,Goiás,Centro-Oeste,0,IFG
+Universidade Federal de Goiás,Goiás,Centro-Oeste,0,UFG
+Instituto Federal Goiano,Goiás,Centro-Oeste,0,IF Goiano
+Universidade Federal de Catalão,Goiás,Centro-Oeste,0,UFCat
+Universidade Federal de Jataí,Goiás,Centro-Oeste,0,UFJ
+Pontifícia Universidade Católica de Goiás,Goiás,Centro-Oeste,1,PUC-GO
+Universidade Salgado de Oliveira,Goiás,Centro-Oeste,1,UNIVERSO
+Universidade Luterana do Brasil-GO,Goiás,Centro-Oeste,1,ULBRA-GO
+Faculdade Alves Faria,Goiás,Centro-Oeste,1,ALFA
+Universidade Estácio de Sá-GO,Goiás,Centro-Oeste,1,UNESA-GO
+Universidade Paulista-GO,Goiás,Centro-Oeste,1,UNIP-GO
+Faculdade Santa Rita de Cássia,Goiás,Centro-Oeste,1,UNIFASC
+Faculdades e Colégio Aphonsiano,Goiás,Centro-Oeste,1,IAESUP
+Universidade Estadual do Maranhão,Maranhão,Nordeste,0,UEMA
+Universidade Estadual da Região Tocantina do Maranhão,Maranhão,Nordeste,0,UEMASUL
+Instituto Estadual do Maranhão,Maranhão,Nordeste,0,IEMA
+Instituto Federal do Maranhão,Maranhão,Nordeste,0,IFMA
+Universidade Federal do Maranhão,Maranhão,Nordeste,0,UFMA
+Faculdade Santa Terezinha,Maranhão,Nordeste,1,CEST
+Faculdade do Estado do Maranhão,Maranhão,Nordeste,1,FACEM
+Faculdade de Imperatriz,Maranhão,Nordeste,1,FACIMP
+Universidade do Estado de Mato Grosso,Mato Grosso,Centro-Oeste,0,UNEMAT
+Instituto Federal do Mato Grosso,Mato Grosso,Centro-Oeste,0,IFMT
+Universidade Federal de Mato Grosso,Mato Grosso,Centro-Oeste,0,UFMT
+Universidade Federal de Rondonópolis,Mato Grosso,Centro-Oeste,0,UFR
+"Instituto Parecis de Ensino, Desenvolvimento e Pesquisa",Mato Grosso,Centro-Oeste,1,IPE
+Universidade Paulista-MT,Mato Grosso,Centro-Oeste,1,UNIP-MT
+Universidade Estadual do Mato Grosso do Sul,Mato Grosso do Sul,Centro-Oeste,0,UEMS
+Universidade Federal da Grande Dourados,Mato Grosso do Sul,Centro-Oeste,0,UFGD
+Instituto Federal de Mato Grosso do Sul,Mato Grosso do Sul,Centro-Oeste,0,IFMS
+Universidade Federal do Mato Grosso do Sul,Mato Grosso do Sul,Centro-Oeste,0,UFMS
+Universidade Católica Dom Bosco,Mato Grosso do Sul,Centro-Oeste,1,UCDB
+Centro Universitário da Grande Dourados,Mato Grosso do Sul,Centro-Oeste,1,UNIGRAN
+Fundação João Pinheiro,Minas Gerais,Sudeste,0,FJP
+Universidade do Estado de Minas Gerais,Minas Gerais,Sudeste,0,UEMG
+Universidade Estadual de Montes Claros,Minas Gerais,Sudeste,0,UNIMONTES
+Centro Federal de Educação Tecnológica de Minas Gerais,Minas Gerais,Sudeste,0,CEFET-MG
+Instituto Federal de Minas Gerais,Minas Gerais,Sudeste,0,IFMG
+Instituto Federal do Norte de Minas Gerais,Minas Gerais,Sudeste,0,IFNMG
+Institutio Federal do Sudeste de Minas,Minas Gerais,Sudeste,0,UFSUDESTEMG
+Institutio Federal do Sul de Minas,Minas Gerais,Sudeste,0,IFSULDEMINAS
+Institutio Federal do Triângulo Mineiro,Minas Gerais,Sudeste,0,IFTM
+Universidade Federal de Juiz de Fora,Minas Gerais,Sudeste,0,UFJF
+Universidade Federal de Lavras,Minas Gerais,Sudeste,0,UFLA
+Universidade Federal de Minas Gerais,Minas Gerais,Sudeste,0,UFMG
+Universidade Federal de Ouro Preto,Minas Gerais,Sudeste,0,UFOP
+Universidade Federal de São João del-Rei,Minas Gerais,Sudeste,0,UFSJ
+Universidade Federal do Triângulo Mineiro,Minas Gerais,Sudeste,0,UFTM
+Universidade Federal de Uberlândia,Minas Gerais,Sudeste,0,UFU
+Universidade Federal de Viçosa,Minas Gerais,Sudeste,0,UFV
+Universidade Federal dos Vales do Jequitinhonha e Mucuri,Minas Gerais,Sudeste,0,UFVJM
+Universidade Federal de Alfenas,Minas Gerais,Sudeste,0,UNIFAL
+Universidade Federal de Itajubá,Minas Gerais,Sudeste,0,UNIFEI
+Faculdade de Direito de Ipatinga,Minas Gerais,Sudeste,1,FADIPA
+Faculdades Associadas de Uberaba,Minas Gerais,Sudeste,1,FAZU
+Faculdade de Ciências Médicas de Minas Gerais,Minas Gerais,Sudeste,1,FCMMG
+Faculdade de Ciências Médicas e da Saúde de Juiz de Fora,Minas Gerais,Sudeste,1,FCMS/JF
+Faculdade de Medicina de Barbacena,Minas Gerais,Sudeste,1,FUNJOB
+Pontifícia Universidade Católica de Minas Gerais,Minas Gerais,Sudeste,1,PUCMG
+Universidade de Itaúna,Minas Gerais,Sudeste,1,UIT
+Centro Universitário de Belo Horizonte,Minas Gerais,Sudeste,1,UNIBH
+Universidade Vale do Rio Doce,Minas Gerais,Sudeste,1,UNIVALE
+Universidade Federal Rural da Amazônia,Pará,Norte,0,UFRA
+Universidade Federal do Pará,Pará,Norte,0,UFPA
+Instituto Federal do Pará,Pará,Norte,0,IFPA
+Universidade Federal do Oeste do Pará,Pará,Norte,0,UFOPA
+Universidade Federal do Sul e Sudeste do Pará,Pará,Norte,0,UNIFESSPA
+Universidade do Estado do Pará,Pará,Norte,0,UEPA
+Centro de Educação da Amazônia,Pará,Norte,1,CEAMA
+Centro Universitário do Estado do Pará,Pará,Norte,1,CESUPA
+Faculdade Metropolitana da Amazônia,Pará,Norte,1,FAMAZ
+Faculdade de Belém,Pará,Norte,1,FABEL
+Universidade Estadual da Paraíba,Paraíba,Nordeste,0,UEPB
+Instituto Federal da Paraíba,Paraíba,Nordeste,0,IFPB
+Universidade Federal da Paraíba,Paraíba,Nordeste,0,UFPB
+Universidade Federal de Campina Grande,Paraíba,Nordeste,0,UFCG
+Centro Universitário de João Pessoa,Paraíba,Nordeste,1,UNIPÊ
+Centro Universitário de União da Vitória,Paraíba,Nordeste,1,Uniuv
+Faculdade Maurício de Nassau,Paraíba,Nordeste,1,ESBJ
+Faculdades Vale do Piancó,Paraíba,Nordeste,1,FAVAP
+Instituto de Educação Superior da Paraíba,Paraíba,Nordeste,1,IESP
+Centro Universitário de Patos,Paraíba,Nordeste,1,UNIFIP
+Universidade Estadual do Paraná,Paraná,Sul,0,UNESPAR
+Universidade Estadual de Londrina,Paraná,Sul,0,UEL
+Universidade Estadual de Maringá,Paraná,Sul,0,UEM
+Universidade Estadual do Norte do Paraná,Paraná,Sul,0,UENP
+Universidade Estadual de Ponta Grossa,Paraná,Sul,0,UEPG
+Universidade Estadual do Centro-Oeste,Paraná,Sul,0,UNICENTRO
+Universidade Estadual do Oeste do Paraná,Paraná,Sul,0,UNIOESTE
+Instituto Federal do Paraná,Paraná,Sul,0,IFPR
+Universidade Tecnológica Federal do Paraná,Paraná,Sul,0,UTFPR
+Universidade Federal do Paraná,Paraná,Sul,0,UFPR
+Universidade Federal da Integração Latino-Americana,Paraná,Sul,0,UNILAB
+Universidade Federal da Fronteira Sul-PR,Paraná,Sul,0,UFFS-PR
+Pontifícia Universidade Católica do Paraná,Paraná,Sul,1,PUCPR
+Universidade Paranaense,Paraná,Sul,1,UNIPAR
+Universidade Federal de Pernambuco,Pernambuco,Nordeste,0,UFPE
+Universidade Federal Rural de Pernambuco,Pernambuco,Nordeste,0,UFRPE
+Instituto Federal de Pernambuco,Pernambuco,Nordeste,0,IFPE
+Universidade Federal do Vale do São Francisco,Pernambuco,Nordeste,0,UNIVASF
+Instituto Federal do Sertão Pernambucano,Pernambuco,Nordeste,0,IFSertão-PE
+Universidade Federal do Agreste de Pernambuco,Pernambuco,Nordeste,0,UFAPE
+Escola Politécnica de Pernambuco,Pernambuco,Nordeste,0,POLI-PE
+Faculdade de Ciências da Administração de Pernambuco,Pernambuco,Nordeste,0,FCAP
+Faculdade de Ciências Médicas de Pernambuco,Pernambuco,Nordeste,0,FCM
+Instituto de Ciências Biológicas,Pernambuco,Nordeste,0,ICB-PE
+Escola Superior de Educação Física,Pernambuco,Nordeste,0,ESEF
+Faculdade de Odontologia de Pernambuco,Pernambuco,Nordeste,0,FOP
+"Faculdade de Ciências, Educação e Tecnologia de Garanhuns",Pernambuco,Nordeste,0,FACETEG
+Universidade de Pernambuco,Pernambuco,Nordeste,0,UPE
+Universidade Católica de Pernambuco,Pernambuco,Nordeste,1,UNICAP
+Faculdade de Olinda,Pernambuco,Nordeste,1,FOCCA
+Centro Universitário Maurício de Nassau,Pernambuco,Nordeste,1,UNINASSAU
+Faculdade de Tecnologia e Ciências de Pernambuco,Pernambuco,Nordeste,1,FATEC
+Universidade Paulsita-PE,Pernambuco,Nordeste,1,UNIP-PE
+Universidade Federal do Piauí,Piauí,Nordeste,0,UFPI
+Instituto Federal do Piauí,Piauí,Nordeste,0,IFPI
+Universidade Federal do Delta do Parnaíba,Piauí,Nordeste,0,UFDPar
+Universidade Estadual do Piauí,Piauí,Nordeste,0,UESPI
+Instituto Superior de Educação do Rio de Janeiro,Rio de Janeiro,Sudeste,0,ISERJ
+Faculdade de Educação Tecnológica do Estado do Rio de Janeiro,Rio de Janeiro,Sudeste,0,FAETERJ
+Universidade Estadual do Norte Fluminense,Rio de Janeiro,Sudeste,0,UENF
+Universidade do Estado do Rio de Janeiro,Rio de Janeiro,Sudeste,0,UERJ
+Universidade Estadual da Zona Oeste,Rio de Janeiro,Sudeste,0,UEZO
+Instituto de Matemática Pura e Aplicada,Rio de Janeiro,Sudeste,0,IMPA
+Centro Brasileiro de Pesquisas Físicas,Rio de Janeiro,Sudeste,0,CBPF
+Centro Federal de Educação Tecnológica do Rio de Janeiro,Rio de Janeiro,Sudeste,0,CEFET-RJ
+Escola Nacional de Ciências Estatísticas,Rio de Janeiro,Sudeste,0,ENCE
+Instituto Federal Fluminense,Rio de Janeiro,Sudeste,0,IFF
+Instituto Federal do Rio de Janeiro,Rio de Janeiro,Sudeste,0,IFRJ
+Universidade Federal Fluminense,Rio de Janeiro,Sudeste,0,UFF
+Universidade Federal do Rio de Janeiro,Rio de Janeiro,Sudeste,0,UFRJ
+Universidade Federal Rural do Rio de Janeiro,Rio de Janeiro,Sudeste,0,UFRRJ
+Universidade Federal do Estado do Rio de Janeiro,Rio de Janeiro,Sudeste,0,UNIRIO
+Instituto Militar de Engenharia,Rio de Janeiro,Sudeste,0,IME
+Escola Naval,Rio de Janeiro,Sudeste,0,EN
+Escola Superior de Propaganda e Marketing,Rio de Janeiro,Sudeste,1,ESPM-Rio
+Faculdades Integradas Hélio Alonso,Rio de Janeiro,Sudeste,1,FACHA
+Fundação Getulio Vargas,Rio de Janeiro,Sudeste,1,FGV
+Faculdade de Medicina de Campos,Rio de Janeiro,Sudeste,1,FMC
+Faculdade de Medicina de Petrópolis,Rio de Janeiro,Sudeste,1,FMP/FASE
+IBMEC,Rio de Janeiro,Sudeste,1,IBMEC
+Centro Universitário IBMR,Rio de Janeiro,Sudeste,1,IBMR
+Faculdade Presbiteriana Mackenzie Rio,Rio de Janeiro,Sudeste,1,MACKENZIE-RIO
+Pontifícia Universidade Católica do Rio de Janeiro,Rio de Janeiro,Sudeste,1,PUC-RIO
+Universidade Cândido Mendes,Rio de Janeiro,Sudeste,1,UCAM
+Universidade Castelo Branco,Rio de Janeiro,Sudeste,1,UCB
+Centro Universitário Serra dos Orgãos,Rio de Janeiro,Sudeste,1,UNIFESO
+Universidade do Grande Rio,Rio de Janeiro,Sudeste,1,UNIGRANRIO
+Centro Universitário Universus Veritas,Rio de Janeiro,Sudeste,1,UNIVERITAS
+Universidade Veiga de Almeida,Rio de Janeiro,Sudeste,1,UVA
+Universidade Estácio de Sá-RJ,Rio de Janeiro,Sudeste,1,UNESA-RJ
+Universidade do Estado do Rio Grande do Norte,Rio Grande do Norte,Nordeste,0,UERN
+Instituto Federal do Rio Grande do Norte,Rio Grande do Norte,Nordeste,0,IFRN
+Universidade Federal Rural do Semi-Árido,Rio Grande do Norte,Nordeste,0,UFERSA
+Universidade Federal do Rio Grande do Norte,Rio Grande do Norte,Nordeste,0,UFRJ
+Universidade Potiguar,Rio Grande do Norte,Nordeste,1,UNP
+Faculdade Maurício de Nassau-RN,Rio Grande do Norte,Nordeste,1,UNINASSAU-RN
+Faculdade de Natal,Rio Grande do Norte,Nordeste,1,FAL
+Universidade Estadual do Rio Grande do Sul,Rio Grande do Sul,Sul,0,UERGS
+Universidade Federal do Rio Grande,Rio Grande do Sul,Sul,0,FURG
+Instituto Federal Farroupilha,Rio Grande do Sul,Sul,0,IFFarroupilha
+Instituto Federal do Rio Grande do Sul,Rio Grande do Sul,Sul,0,IFRS
+Instituto Federal Sul-rio-grandense,Rio Grande do Sul,Sul,0,IFSul
+Universidade Federal de Ciências da Saúde de Porto Alegre,Rio Grande do Sul,Sul,0,UFCSPA
+Universidade Federal do Pelotas,Rio Grande do Sul,Sul,0,UFPEL
+Universidade Federal do Rio Grande do Sul,Rio Grande do Sul,Sul,0,UFRGS
+Universidade Federal de Santa Maria,Rio Grande do Sul,Sul,0,UFSM
+Universidade Federal do Pampa,Rio Grande do Sul,Sul,0,UNIPAMPA
+Institu,Rio Grande do Sul,Sul,0,UFFS-RS
+Pontifíca Universidade Católica do Rio Grande do Sul,Rio Grande do Sul,Sul,1,PUCRS
+Faculdade Porto-Alegrense,Rio Grande do Sul,Sul,1,FAPA
+Universidade Católica de Pelotas,Rio Grande do Sul,Sul,1,UCPEL
+Universidade de Caxias do Sul,Rio Grande do Sul,Sul,1,UCS
+Universidade Federal de Rondônia,Rondônia,Norte,0,UNIRIO
+Instituto Federal de Rondônia,Rondônia,Norte,0,IFRO
+Universidade Estadual de Roraima,Roraima,Norte,0,UERR
+Universidade Federal de Roraima,Roraima,Norte,0,UFRRJ
+Instituto Federal de Roraima,Roraima,Norte,0,IFRR
+Universidade do Extremo Sul Catarinense,Santa Catarina,Sul,0,UNESC
+Universidade Municipal de São José,Santa Catarina,Sul,0,USJ
+Faculdade Municipal de Palhoça,Santa Catarina,Sul,0,FMP
+Universidade do Estado de Santa Catarina,Santa Catarina,Sul,0,UDESC
+Universidade Federal da Fronteira Sul-SC,Santa Catarina,Sul,0,UFFS-SC
+Instituto Federal de Santa Catarina,Santa Catarina,Sul,0,IFSC
+Instituto Federal Catarinense,Santa Catarina,Sul,0,IFC
+Universidade Federal de Santa Catarina,Santa Catarina,Sul,0,UFSC
+Universidade do Oeste de Santa Catarina,Santa Catarina,Sul,1,UNOESC
+Universidade do Sul de Santa Catarina,Santa Catarina,Sul,1,UNISUL
+Centro Universitário de Jaraguá do Sul,Santa Catarina,Sul,1,UNERJ
+Universidade do Vale do Itajaí,Santa Catarina,Sul,1,UNIVALI
+Universidade da Região de Joinville,Santa Catarina,Sul,1,UNIVILLE
+Universidade de Taubaté,São Paulo,Sudeste,0,UNITAU
+Universidade Municipal de São Caetano do Sul,São Paulo,Sudeste,0,USCS
+Centro Universitário das Faculdades Associadas de Ensino,São Paulo,Sudeste,0,UNIFAE
+Centro Universitário de Franca,São Paulo,Sudeste,0,Uni-FACEF
+Centro Universitário Fundação Santa André,São Paulo,Sudeste,0,CUFSA
+Faculdade de Campo Limpo Paulista,São Paulo,Sudeste,0,FACCAMP
+Faculdade de Direito de Franca,São Paulo,Sudeste,0,FDF
+Faculdade de Direito de São Bernardo do Campo,São Paulo,Sudeste,0,FDSBC
+Faculdade de Medicina do ABC,São Paulo,Sudeste,0,FMABC
+Faculdade de Medicina de Jundiaí,São Paulo,Sudeste,0,FMJ
+Faculdades Adamantinenses Integradas,São Paulo,Sudeste,0,FAI
+Universidade de São Paulo,São Paulo,Sudeste,0,USP
+Universidade Estadual de Campinas,São Paulo,Sudeste,0,UNICAMP
+Universidade Estadual Paulista,São Paulo,Sudeste,0,UNESPAR
+Faculdade de Medicina de Marília,São Paulo,Sudeste,0,FAMEMA
+Faculdade de Medicina de São José do Rio Preto,São Paulo,Sudeste,0,FAMERP
+Faculdade de Tecnologia do Estado de São Paulo,São Paulo,Sudeste,0,FATEC
+Universidade Federal de São Carlos,São Paulo,Sudeste,0,UFSCar
+Universidade Federal de São Paulo,São Paulo,Sudeste,0,UNIFESP
+Universidade Federal do ABC,São Paulo,Sudeste,0,UFABC
+"Instituto Federal de Educação, Ciência e Tecnologia de São Paulo",São Paulo,Sudeste,0,IFSP
+Instituto Tecnológica de Aeronáutica,São Paulo,Sudeste,0,ITA
+Pontifícia Universidade Católica de São Paulo,São Paulo,Sudeste,1,PUC-SP
+Pontifícia Universidade Católica de Campinas,São Paulo,Sudeste,1,PUC-Campinas
+Universidade Presbiteriana Mackenzie,São Paulo,Sudeste,1,MACK
+Universidade de Araraquara,São Paulo,Sudeste,1,UNIARA
+Universidade de Santo Amaro,São Paulo,Sudeste,1,UNISA
+Universidade Católica de Santos,São Paulo,Sudeste,1,UNISANTOS
+Universidade do Vale do Paraíba,São Paulo,Sudeste,1,UNIVAP
+Universidade do Oeste Paulista,São Paulo,Sudeste,1,UNOESTE
+Instituto de Ensino e Pesquisa,São Paulo,Sudeste,1,Insper
+Universidade Anhembi Morumbi,São Paulo,Sudeste,1,UAM
+Universidade de Mogi das Cruzes,São Paulo,Sudeste,1,UMC
+Universidade de Guarulhos,São Paulo,Sudeste,1,UNG
+Universidade do Grande ABC,São Paulo,Sudeste,1,UniABC
+Centro Universitário Anhanguera de São Paulo,São Paulo,Sudeste,1,UNIBERO
+Universidade Cruzeiro do Sul,São Paulo,Sudeste,1,UNICSUL
+Universidade Paulista-SP,São Paulo,Sudeste,1,UNIP-SP
+Universidade Federal de Sergipe,Sergipe,Nordeste,0,UFS
+Instituto Federal de Sergipe,Sergipe,Nordeste,0,IFS
+Universidade Tiradentes,Sergipe,Nordeste,0,Unit
+Faculdade Maurício de Nassau-SE,Sergipe,Nordeste,0,UNINASSAU-SE
+Universidade Estadual do Tocantins,Tocantins,Norte,0,UNITINS
+Instituto Federal do Tocantins,Tocantins,Norte,0,IFTO
+Universidade Federal do Tocantins,Tocantins,Norte,0,UFT

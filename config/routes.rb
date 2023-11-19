@@ -31,6 +31,7 @@ Rails.application.routes.draw do
           post :disapprove
         end
       end
+      resources :universities, only: %i[index show]
     end
   end
 

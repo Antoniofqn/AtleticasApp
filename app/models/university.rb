@@ -1,6 +1,13 @@
 # frozen_string_literal: true
 
 class University < ApplicationRecord
+  include PgSearch::Model
+  pg_search_scope :search,
+                  against: [:name, :abbreviation, :state, :region],
+                  using: {
+                    tsearch: { prefix: true }
+                  }
+
   ##
   # Constants
   #
@@ -19,7 +26,7 @@ class University < ApplicationRecord
   #
 
   validates :name, :category, :state, :region,
-            :abbreviation, :logo_url, presence: true
+            :abbreviation, presence: true
   validates :state, inclusion: { in: BRAZIL_STATES, message: '%<value>s não é um Estado válido' }
   validates :region, inclusion: { in: REGIONS, message: '%<value>s não é uma Região válida' }
 
