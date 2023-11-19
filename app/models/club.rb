@@ -12,8 +12,11 @@ class Club < ApplicationRecord
   #
 
   belongs_to :university
-  has_many :club_users
+  has_many :club_users, dependent: :destroy
   has_many :users, through: :club_users
+  has_many :club_honors, dependent: :destroy
+  has_many :club_athletes, dependent: :destroy
+  has_one :club_content, dependent: :destroy
 
   #
   # Callbacks
