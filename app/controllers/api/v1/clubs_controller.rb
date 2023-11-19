@@ -24,7 +24,7 @@ module Api
       end
 
       def show
-        render json: Api::V1::ClubSerializer.new(@club).serialized_json
+        render json: Api::V1::ClubSerializer.new(@club, { params: { action: :show}} ).serialized_json
       end
 
       def update

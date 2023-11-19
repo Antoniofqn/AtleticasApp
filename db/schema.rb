@@ -29,8 +29,8 @@ ActiveRecord::Schema[7.0].define(version: 2023_11_19_224554) do
   create_table "club_athletes", force: :cascade do |t|
     t.string "name"
     t.text "achievements"
-    t.date "joined_at"
-    t.date "left_at"
+    t.integer "joined_at"
+    t.integer "left_at"
     t.bigint "club_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false

@@ -53,14 +53,8 @@ class ApplicationPolicy
     user.present? && user.id.present? ? true : __method__
   end
 
-  def user_finished_signup?
-    return true if user.sign_up_finished?
-
-    __method__
-  end
-
-  def user_subscriber?
-    user&.paywalled == true || user&.trialing? == true ? true : __method__
+  def user_belongs_to_records_club?
+    record.club.users.include?(user) ? true : __method__
   end
 
   def _or *options
