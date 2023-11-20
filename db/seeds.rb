@@ -9,8 +9,8 @@
 require 'csv'
 
 # Create a default admin user
-admin = Administrator.find_by(email: "admin@atleticas.com")
-Administrator.create!(email: "admin@atleticas.com", password: "common12345", password_confirmation: "common12345") unless admin
+admin = Administrator.find_by(email: ENV['ADMIN_EMAIL'])
+Administrator.create!(email: ENV['ADMIN_EMAIL'], password: ENV['ADMIN_PASSWORD'], password_confirmation: ENV['ADMIN_PASSWORD']) unless admin
 
 # Create a default user
 user = User.find_by(email: "user@atleticas.com")
