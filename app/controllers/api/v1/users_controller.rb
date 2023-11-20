@@ -179,7 +179,7 @@ module Api
       # Allowed Parameters
       #
       def user_params
-        params.fetch(:user).permit(*user_allowed_params.push(address_allowed_params, { new_config: {}, preferences: {} }))
+        params.fetch(:user).permit(*user_allowed_params)
       end
 
       ##

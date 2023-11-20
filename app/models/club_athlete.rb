@@ -18,8 +18,9 @@ class ClubAthlete < ApplicationRecord
   #
 
   def joined_at_before_left_at_valid?
-    return false if joined_at.blank? || left_at.blank?
+    return true if joined_at && left_at && joined_at < left_at
 
-    errors.add(:joined_at, 'must be before left at') if joined_at > left_at
+    errors.add(:joined_at, 'must be before left at')
+    false
   end
 end
