@@ -76,6 +76,9 @@ gem 'http-parser', '~> 1.2.3'
 gem "administrate"
 # Search
 gem 'pg_search'
+# Swagger for docs
+gem 'rswag-api'
+gem 'rswag-ui'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -86,6 +89,8 @@ group :development, :test do
   gem 'rspec-rails'
   # Static code analyzer and code formatter
   gem 'rubocop', require: false
+  # Swagger tests
+  gem 'rswag-specs'
 end
 
 group :development do

@@ -1,0 +1,177 @@
+---
+openapi: 3.0.1
+info:
+  title: API V1
+  version: v1
+paths:
+  "/api/v1/clubs":
+    get:
+      summary: list clubs
+      tags:
+      - Clubs
+      parameters:
+      - name: university_hashid
+        in: query
+        required: false
+        description: University Hash ID
+        schema:
+          type: string
+      responses:
+        '200':
+          description: successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      type: object
+                      properties:
+                        id:
+                          type: string
+                        type:
+                          type: string
+                          enum:
+                          - club
+                        attributes:
+                          type: object
+                          properties:
+                            name:
+                              type: string
+                            description:
+                              type: string
+                              nullable: true
+                            year_of_foundation:
+                              type: integer
+                              nullable: true
+                            logo_url:
+                              type: string
+                              nullable: true
+                            slug:
+                              type: string
+                            university:
+                              type: object
+                              properties:
+                                name:
+                                  type: string
+                                slug:
+                                  type: string
+                                hashid:
+                                  type: string
+  "/api/v1/clubs/{id}":
+    get:
+      summary: show club
+      tags:
+      - Clubs
+      parameters:
+      - name: id
+        in: path
+        description: Club ID
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: object
+                    properties:
+                      id:
+                        type: string
+                      type:
+                        type: string
+                        enum:
+                        - club
+                      attributes:
+                        type: object
+                        properties:
+                          name:
+                            type: string
+                          description:
+                            type: string
+                            nullable: true
+                          year_of_foundation:
+                            type: integer
+                            nullable: true
+                          logo_url:
+                            type: string
+                            nullable: true
+                          slug:
+                            type: string
+                          university:
+                            type: object
+                            properties:
+                              name:
+                                type: string
+                              slug:
+                                type: string
+                              hashid:
+                                type: string
+    patch:
+      summary: update club
+      tags:
+      - Clubs
+      parameters:
+      - name: id
+        in: path
+        description: Club ID
+        required: true
+        schema:
+          type: string
+      - name: access-token
+        in: header
+        schema:
+          type: string
+      - name: client
+        in: header
+        schema:
+          type: string
+      - name: uid
+        in: header
+        schema:
+          type: string
+      responses:
+        '200':
+          description: successful
+      requestBody:
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                club:
+                  type: object
+                  properties:
+                    name:
+                      type: string
+                    description:
+                      type: string
+                    year_of_foundation:
+                      type: integer
+                      nullable: true
+                    logo_url:
+                      type: string
+                      nullable: true
+                    slug:
+                      type: string
+                    university:
+                      type: object
+                      properties:
+                        name:
+                          type: string
+                        slug:
+                          type: string
+                        hashid:
+                          type: string
+servers:
+- url: https://{defaultHost}
+  variables:
+    defaultHost:
+      default: www.example.com

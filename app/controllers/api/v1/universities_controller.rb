@@ -13,6 +13,7 @@ module Api
     #
     class UniversitiesController < Api::ApiController
       before_action :set_university, only: %i[show]
+      skip_before_action :authenticate_user!, only: %i[index show]
 
       def index
         if params[:query].present?

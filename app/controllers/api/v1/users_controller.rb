@@ -17,7 +17,6 @@ module Api
                                                        resend_email_confirmation]
       before_action :set_user, only: %i[destroy show update]
       skip_after_action :update_auth_header, only: %i[destroy]
-      before_action :set_user_to_confirm_phone, only: %i[confirm_phone resend_phone_confirmation]
 
       ##
       # Authenticate a User using omniauth

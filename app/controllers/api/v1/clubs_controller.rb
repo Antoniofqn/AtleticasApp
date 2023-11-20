@@ -13,6 +13,7 @@ module Api
     #
     class ClubsController < Api::ApiController
       before_action :set_club, only: %i[show update]
+      skip_before_action :authenticate_user!, only: %i[index show]
 
       def index
         if params[:university_hashid].present?
