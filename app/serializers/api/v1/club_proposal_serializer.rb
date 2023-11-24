@@ -17,7 +17,13 @@ module Api
       ##
       # Relationships
       #
-      belongs_to :university
-      belongs_to :user
+      attribute :university do |object|
+        Api::V1::UniversitySerializer.new(object.university).serializable_hash
+      end
+
+      attribute :user do |object|
+        Api::V1::UserSerializer.new(object.user).serializable_hash
+      end
+    end
   end
 end
