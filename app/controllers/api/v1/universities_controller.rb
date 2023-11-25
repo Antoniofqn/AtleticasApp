@@ -16,9 +16,10 @@ module Api
       skip_before_action :authenticate_user!, only: %i[index show]
 
       def index
-        if params[:query].present?
-          @universities = University.search(params[:query])
+        if params[:query].present? || params[:category].present?
+          @universities = University.all
           @universities = @universities.where(category: params[:category]) if params[:category].present?
+          @universities = @universities.search(params[:query]) if params[:query].present?
         else
           @universities = University.all
         end
