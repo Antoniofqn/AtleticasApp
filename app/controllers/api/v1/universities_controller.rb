@@ -18,6 +18,7 @@ module Api
       def index
         if params[:query].present?
           @universities = University.search(params[:query])
+          @universities = @universities.where(category: params[:category]) if params[:category].present?
         else
           @universities = University.all
         end
