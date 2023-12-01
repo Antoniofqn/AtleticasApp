@@ -40,6 +40,7 @@ Rails.application.routes.draw do
         resources :club_contents, only: %i[create update destroy]
       end
       resources :club_users, only: %i[index create destroy]
+      resources :current_users, only: %i[index]
     end
   end
 
