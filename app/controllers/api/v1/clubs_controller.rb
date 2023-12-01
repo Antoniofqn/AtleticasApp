@@ -16,7 +16,8 @@ module Api
       skip_before_action :authenticate_user!, only: %i[create update index show]
 
       def create
-        @club = Club.new(club_params)
+        @club = Club.new(club_params.except(:university_hashid))
+        @club.university = University.find_by_hashid!(club_params[:university_hashid])
         authorize @club
         if @club.save
           render json: Api::V1::ClubSerializer.new(@club).serialized_json
