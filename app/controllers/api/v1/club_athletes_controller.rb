@@ -13,6 +13,7 @@ module Api
     #
     class ClubAthletesController < Api::ApiController
       before_action :set_club_athlete, only: %i[update destroy]
+      skip_before_action :authenticate_user!, only: %i[create update destroy]
 
       def create
         @club_athlete = ClubAthlete.new(club_athlete_params)

@@ -5,6 +5,10 @@
 #
 class ClubPolicy < ApplicationPolicy
 
+  def create?
+    true
+  end
+
   def update?
     true
     #raise_error _and(user_belongs_to_club?)

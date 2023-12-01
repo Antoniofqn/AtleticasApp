@@ -13,7 +13,17 @@ module Api
     #
     class ClubsController < Api::ApiController
       before_action :set_club, only: %i[show update]
-      skip_before_action :authenticate_user!, only: %i[index show]
+      skip_before_action :authenticate_user!, only: %i[create update index show]
+
+      def create
+        @club = Club.new(club_params)
+        authorize @club
+        if @club.save
+          render json: Api::V1::ClubSerializer.new(@club).serialized_json
+        else
+          bad_request(@club.errors.full_messages)
+        end
+      end
 
       def index
         if params[:university_hashid].present?
@@ -40,7 +50,7 @@ module Api
       private
 
       def club_params
-        params.require(:club).permit(:name, :description, :year_of_foundation, :logo_url)
+        params.require(:club).permit(:name, :description, :year_of_foundation, :logo_url, :university_hashid)
       end
 
       def set_club

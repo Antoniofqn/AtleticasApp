@@ -13,6 +13,7 @@ module Api
     #
     class ClubHonorsController < Api::ApiController
       before_action :set_club_honor, only: %i[update destroy]
+      skip_before_action :authenticate_user!, only: %i[create update destroy]
 
       def create
         @club_honor = ClubHonor.new(club_honor_params)
