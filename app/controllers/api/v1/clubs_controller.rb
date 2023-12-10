@@ -28,11 +28,12 @@ module Api
 
       def index
         if params[:university_hashid].present?
-          @clubs = Club.where(university: University.find_by_hashid!(params[:university_hashid]))
+          @q = Club.where(university: University.find_by_hashid!(params[:university_hashid]))
         else
-          @clubs = Club.all
+          @q = Club.all
         end
-        render json: Api::V1::ClubSerializer.new(@clubs).serialized_json
+        @clubs = @q.page(params[:page]).per(params[:per_page])
+        render json: Api::V1::ClubSerializer.new(@clubs, meta: serializer_meta(@clubs, @q)).serialized_json
       end
 
       def show

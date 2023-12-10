@@ -17,13 +17,14 @@ module Api
 
       def index
         if params[:query].present? || params[:category].present?
-          @universities = University.all
-          @universities = @universities.where(category: params[:category]) if params[:category].present?
-          @universities = @universities.search(params[:query]) if params[:query].present?
+          @q = University.all
+          @q = @q.where(category: params[:category]) if params[:category].present?
+          @q = @q.search(params[:query]) if params[:query].present?
         else
-          @universities = University.all
+          @q = University.all
         end
-        render json: Api::V1::UniversitySerializer.new(@universities).serialized_json
+        @universities = @q.page(params[:page]).per(params[:per_page])
+        render json: Api::V1::UniversitySerializer.new(@universities, meta: serializer_meta(@universities, @q)).serialized_json
       end
 
       def show
