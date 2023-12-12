@@ -28,6 +28,7 @@ module Api
       attribute :university do |object|
         { name: object.university.name,
           slug: object.university.slug,
+          abbreviation: object.university.abbreviation,
           hashid: object.university.hashid }
       end
     end
