@@ -29,6 +29,8 @@ module Api
       def index
         if params[:university_hashid].present?
           @q = Club.where(university: University.find_by_hashid!(params[:university_hashid]))
+        elsif params[:query].present?
+          @q = Club.search(params[:query])
         else
           @q = Club.all
         end
