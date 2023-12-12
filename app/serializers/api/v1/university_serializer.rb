@@ -18,7 +18,7 @@ module Api
       #
       attribute :clubs do |object|
         object.clubs.map do |club|
-          { name: club.name, slug: club.slug, logo_url: club.logo_url }
+          { name: club.name, slug: club.slug, logo_url: club.logo_url, club_hashid: club.hashid }
         end
       end
     end
