@@ -33,7 +33,7 @@ Rails.application.routes.draw do
           post :disapprove
         end
       end
-      resources :universities, only: %i[index show]
+      resources :universities, only: %i[index show create]
       resources :clubs, only: %i[index create show update] do
         resources :club_honors, only: %i[create update destroy]
         resources :club_athletes, only: %i[create update destroy]

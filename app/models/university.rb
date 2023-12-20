@@ -25,10 +25,9 @@ class University < ApplicationRecord
   # Validations
   #
 
-  validates :name, :category, :state, :region,
+  validates :name, :category, :state,
             :abbreviation, presence: true
   validates :state, inclusion: { in: BRAZIL_STATES, message: '%<value>s não é um Estado válido' }
-  validates :region, inclusion: { in: REGIONS, message: '%<value>s não é uma Região válida' }
 
   ##
   # Associations
@@ -41,6 +40,7 @@ class University < ApplicationRecord
   #
 
   after_create :set_slug
+  before_validation :set_region
 
   ##
   # Enumerators
@@ -54,5 +54,21 @@ class University < ApplicationRecord
 
   def set_slug
     update(slug: name.strip.parameterize)
+  end
+
+  def set_region
+    self.region = case state
+                  when 'Acre', 'Amapá', 'Amazonas', 'Pará', 'Rondônia', 'Roraima', 'Tocantins'
+                    'Norte'
+                  when 'Alagoas', 'Bahia', 'Ceará', 'Maranhão', 'Paraíba', 'Pernambuco',
+                      'Piauí', 'Rio Grande do Norte', 'Sergipe'
+                    'Nordeste'
+                  when 'Distrito Federal', 'Goiás', 'Mato Grosso', 'Mato Grosso do Sul'
+                    'Centro-Oeste'
+                  when 'Espírito Santo', 'Minas Gerais', 'Rio de Janeiro', 'São Paulo'
+                    'Sudeste'
+                  when 'Paraná', 'Rio Grande do Sul', 'Santa Catarina'
+                    'Sul'
+                  end
   end
 end
