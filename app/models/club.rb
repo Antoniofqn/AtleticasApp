@@ -30,6 +30,7 @@ class Club < ApplicationRecord
   #
 
   after_create :set_slug
+  after_create :create_empty_content
 
   ##
   # Methods
@@ -37,5 +38,9 @@ class Club < ApplicationRecord
 
   def set_slug
     update(slug: name.strip.parameterize)
+  end
+
+  def create_empty_content
+    ClubContent.create!(club: self, content: 'Edite a história da sua Atlética aqui.')
   end
 end
